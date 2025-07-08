@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manasvi Tech</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  
+
+  <link rel="stylesheet" href="manasvi.css"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top animated-navbar py-3">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#">
+      <img src="logo_m.png" alt="Manasvi Logo" height="40">
+   
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="nav-link nav-anim-link" href="#hero">Home</a></li>
+         <li class="nav-item"><a class="nav-link nav-anim-link" href="#about">About</a></li>
+           <li class="nav-item"><a class="nav-link nav-anim-link" href="#technologies">Technologies</a></li>
+            <li class="nav-item"><a class="nav-link nav-anim-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link nav-anim-link" href="#whyus">Why us ?</a></li>
+             <li class="nav-item"><a class="nav-link nav-anim-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-2">
+          <a class="btn btn-outline-primary rounded-pill px-4 fw-semibold" data-bs-toggle="modal" data-bs-target="#joinUsModal">Join Us</a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Join Us Modal -->
+<div class="modal fade" id="joinUsModal" tabindex="-1" aria-labelledby="joinUsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content p-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title fw-bold" id="joinUsModalLabel">Join Us - Registration Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="joinUsForm">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" name="name" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" name="email" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Contact Number</label>
+              <input type="tel" class="form-control" name="contact">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Domain</label>
+              <input type="text" class="form-control" name="domain">
+            </div>
+            <div class="col-12">
+              <label class="form-label">Address</label>
+              <textarea class="form-control" name="address" rows="2"></textarea>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Note</label>
+              <textarea class="form-control" name="note" rows="3"></textarea>
+            </div>
+            <div class="col-12 text-end">
+              <button type="submit" class="btn btn-primary rounded-pill px-4 mt-2">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Hero Section -->
+<section  id="hero" class="hero d-flex align-items-center text-center text-white">
+  <div class="container position-relative">
+    <div class="certifications d-flex justify-content-center mb-4 flex-wrap gap-3">
+      <img src="pngegg.png" alt="ISO" height="60">
+      <img src="google.png" alt="Google" height="60">
+      <img src="msme.png" alt="MSME" height="60">
+      <img src="startupindia.png" alt="Startup India" height="60">
+    </div>
+    <h1 class="display-4 fw-bold">WE ARE PROFESSIONAL</h1>
+    <p class="lead mt-3 mx-auto" style="max-width: 700px;">
+      Believe passionately in what you do, and never knowingly compromise your standards and values.
+      Act like a true professional, aiming for true excellence, and the money will follow.
+    </p>
+    <button class="btn btn-outline-light btn-lg mt-4">WATCH</button>
+  </div>
+</section>
+
+
+<div id="about">
+<!-- WHO WE ARE SECTION -->
+<section class="section bg-white" id="who-we-are">
+  <div class="container" >
+    <div class="row align-items-center gy-4">
+      <!-- Text Left -->
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="card-highlight">
+          <div class="icon-box">
+            <i class="bi bi-people"></i>
+          </div>
+          <h2 class="section-title">Who We Are?</h2>
+          <p class="section-subtext">
+            Manasvi Tech Solutions Pvt Ltd is a registered software consulting company headquartered in Nashik. With 5+ years of experience, we specialize in creating intuitive, impactful digital solutions.
+          </p>
+          <p class="section-subtext">
+            Our talented team of developers, designers, and strategists collaborate to deliver exceptional web apps, mobile platforms, and branding services. We drive digital transformation through innovation, creativity, and user-centric technology.
+          </p>
+        </div>
+      </div>
+      <!-- Image Right -->
+      <div class="col-lg-5" data-aos="fade-left">
+        <div class="image-wrapper">
+          <img src="g2.gif" alt="Technology Concept">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- WHAT WE DO SECTION -->
+<section class="section bg-white pt-4 pb-2" id="what-we-do">
+
+  <div class="container">
+    <div class="row align-items-center gy-4 flex-lg-row-reverse">
+      <div class="col-lg-5" data-aos="fade-left">
+        <div class="image-wrapper">
+          <img src="g6.gif" alt="Business Meeting">
+        </div>
+      </div>
+      <div class="col-lg-5 offset-lg-1" data-aos="fade-right">
+        <div class="card-highlight">
+          <div class="icon-box">
+            <i class="bi bi-code-slash"></i>
+
+          </div>
+          <h2 class="section-title">What We Do?</h2>
+          <p class="section-subtext">
+            We build custom software solutions aligned with your business strategy. From planning to development, we follow agile practices to deliver quality and efficiency.
+          </p>
+          <p class="section-subtext">
+            Our approach combines technical expertise with business understanding to develop systems that are scalable, secure, and future-ready. Let’s turn your vision into a digital reality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+<br>
+
+<!-- STATS SECTION -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3" data-aos="fade-up">
+          <div class="stat-box">
+            <div class="stat-icon"><i class="bi bi-person-check-fill"></i></div>
+            <div class="stat-number" data-target="48">0</div>
+            <div class="stat-label">Clients</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="stat-box">
+            <div class="stat-icon"><i class="bi bi-kanban-fill"></i></div>
+            <div class="stat-number" data-target="87">0</div>
+            <div class="stat-label">Projects</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="stat-box">
+            <div class="stat-icon"><i class="bi bi-clock-history"></i></div>
+            <div class="stat-number" data-target="5023">0</div>
+            <div class="stat-label">Hours of Support</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="stat-box">
+            <div class="stat-icon"><i class="bi bi-people-fill"></i></div>
+            <div class="stat-number" data-target="74">0</div>
+            <div class="stat-label">Hard Workers</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION / STORY / VISION SECTION -->
+<section class="info-section">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Mission -->
+      <div class="col-md-4" data-aos="flip-left">
+        <div class="info-card">
+          <div class="info-inner">
+            <div class="info-front text-center">
+              <div class="info-icon"><i class="bi bi-speedometer2"></i></div>
+              <div class="info-title">Our Mission</div>
+              <div class="info-text">
+                Collaboration to build a sustainable future by enhancing efficiency and revenue.
+              </div>
+            </div>
+            <div class="info-back text-center">
+              <h5>More About Mission</h5>
+              <p>
+                We aim to innovate with intent, adapting efficient and sustainable methods to grow in a global economy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story -->
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+        <div class="info-card">
+          <div class="info-inner">
+            <div class="info-front text-center">
+              <div class="info-icon"><i class="bi bi-journal-richtext"></i></div>
+              <div class="info-title">Our Story</div>
+              <div class="info-text">
+                Built with passion and insight, we found smarter ways to serve our clients better.
+              </div>
+            </div>
+            <div class="info-back text-center">
+              <h5>From Start to Now</h5>
+              <p>
+                With ethics and innovation, we transformed ideas into solutions and challenges into opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vision -->
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+        <div class="info-card">
+          <div class="info-inner">
+            <div class="info-front text-center">
+              <div class="info-icon"><i class="bi bi-eye-fill"></i></div>
+              <div class="info-title">Our Vision</div>
+              <div class="info-text">
+                To become a globally respected leader in future-ready technologies and services.
+              </div>
+            </div>
+            <div class="info-back text-center">
+              <h5>Looking Ahead</h5>
+              <p>
+                We strive to innovate, learn, and adapt constantly while offering futuristic digital solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="technologies">
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Left Title Section -->
+      <div class="col-lg-3 mb-4" data-aos="fade-right">
+        <p class="section-subtitle">Technologies</p>
+        <div class="section-underline"></div>
+        <h2 class="section-title">Technologies<br>We Work With</h2>
+      </div>
+
+      <!-- Right Grid Section -->
+      <div class="col-lg-9">
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-4" data-aos="zoom-in">
+            <div class="tech-card">
+              <i class="bi bi-phone tech-icon"></i>
+              <div class="tech-title">Mobile</div>
+              <p class="tech-desc">We create application based on IOS, Android & Ionic with reliable backends that support the digital presence of top brands.</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="tech-card">
+              <i class="bi bi-cart tech-icon"></i>
+              <div class="tech-title">E-commerce</div>
+              <p class="tech-desc">For broader reach, e-commerce is the ideal solution to expand your digital market effectively.</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="tech-card">
+              <i class="bi bi-window tech-icon"></i>
+              <div class="tech-title">Front End</div>
+              <p class="tech-desc">We create responsive web pages using HTML, CSS, JavaScript, Angular, and React frameworks.</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-4" data-aos="zoom-in">
+            <div class="tech-card">
+              <i class="bi bi-cpu tech-icon"></i>
+              <div class="tech-title">Back End</div>
+              <p class="tech-desc">We develop scalable backend systems using PHP, Java, NodeJS and microservices architecture.</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="tech-card">
+              <i class="bi bi-hdd-network tech-icon"></i>
+              <div class="tech-title">Integrations</div>
+              <p class="tech-desc">Enhance your app or website with seamless integrations of AWS, third-party APIs, and cloud services.</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="tech-card">
+              <i class="bi bi-palette tech-icon"></i>
+              <div class="tech-title">Graphic Designing</div>
+              <p class="tech-desc">We craft creative visual stories using text and graphics for effective communication and branding.</p>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="col-md-4" data-aos="zoom-in">
+            <div class="tech-card">
+              <i class="bi bi-journal-richtext tech-icon"></i>
+              <div class="tech-title">CMS</div>
+              <p class="tech-desc">We build and customize CMS platforms like WordPress, Joomla, and Drupal tailored to your needs.</p>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="tech-card">
+              <i class="bi bi-diagram-3 tech-icon"></i>
+              <div class="tech-title">API Development</div>
+              <p class="tech-desc">Secure, scalable API and microservice development for seamless data exchange and control.</p>
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="tech-card">
+              <i class="bi bi-terminal tech-icon"></i>
+              <div class="tech-title">DevOps</div>
+              <p class="tech-desc">From automation to deployment pipelines, our DevOps solutions improve delivery and uptime.</p>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- End Right -->
+    </div>
+  </div>
+</section>
+</div>
+
+
+<div id="services">
+<section class="services-section py-5">
+  <div class="container text-center">
+    <h6 class="text-primary fw-bold">Our Services</h6>
+    <h2 class="fw-bold mb-5">We run all kinds of services</h2>
+
+    <div class="swiper-container swiper mySwiper">
+      <div class="swiper-wrapper">
+        
+        <!-- ✅ Horizontal line that scrolls with slides -->
+        <div class="horizontal-chain-line"></div>
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="icon-wrapper">
+            <div class="icon-circle"><i class="fas fa-print"></i></div>
+            <div class="line-connector"></div>
+          </div>
+          <div class="card service-card">
+            <h5>Printing & Packaging</h5>
+            <p>We bring brands to life with packaging, branding, and retail design.</p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="icon-wrapper">
+            <div class="icon-circle"><i class="fas fa-code"></i></div>
+            <div class="line-connector"></div>
+          </div>
+          <div class="card service-card">
+            <h5>Web Development</h5>
+            <p>Custom websites, server management, and seamless user experience.</p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="icon-wrapper">
+            <div class="icon-circle"><i class="fas fa-mobile-alt"></i></div>
+            <div class="line-connector"></div>
+          </div>
+          <div class="card service-card">
+            <h5>Mobile App Development</h5>
+            <p>iOS, Android, and hybrid apps tailored to your business needs.</p>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+          <div class="icon-wrapper">
+            <div class="icon-circle"><i class="fas fa-cogs"></i></div>
+            <div class="line-connector"></div>
+          </div>
+          <div class="card service-card">
+            <h5>Software Solutions</h5>
+            <p>Custom-built software to streamline operations and boost growth.</p>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="swiper-slide">
+          <div class="icon-wrapper">
+            <div class="icon-circle"><i class="fas fa-shield-alt"></i></div>
+            <div class="line-connector"></div>
+          </div>
+          <div class="card service-card">
+            <h5>Cybersecurity</h5>
+            <p>Advanced protection through encryption, firewalls, and audits.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div id="whyus">
+<section class="why-choose">
+  <div class="container">
+    <p class="text-primary fw-semibold">Why Choose</p>
+    <h2>MANASVI TECH SOLUTION</h2>
+
+    <!-- Row 1: 3 Cards -->
+    <div class="custom-row row-1 mt-5">
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-gear-fill"></i></div>
+          <h5>Customization</h5>
+          <p>We’re excellent at personalized approaches, selecting the right people for each unique need.</p>
+        </div>
+      </div>
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-hdd-stack-fill"></i></div>
+          <h5>Technology Driven Solution</h5>
+          <p>Our services reflect the adoption of modern technology effectively.</p>
+        </div>
+      </div>
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-alarm-fill"></i></div>
+          <h5>On-Time Delivery</h5>
+          <p>We always deliver on time. Punctuality is our core commitment.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2: 2 Cards Centered -->
+    <div class="custom-row row-2 mt-4">
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-bank"></i></div>
+          <h5>Secure & Economical</h5>
+          <p>Highly protected and cost-effective solutions for every customer.</p>
+        </div>
+      </div>
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-person-badge-fill"></i></div>
+          <h5>Dedicated Resources</h5>
+          <p>Our team is committed to completing tasks effectively and on time.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 3: 3 Cards -->
+    <div class="custom-row row-3 mt-4">
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-cpu-fill"></i></div>
+          <h5>Optimized Code</h5>
+          <p>Clean code helps with SEO and performance by reducing load time.</p>
+        </div>
+      </div>
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-display"></i></div>
+          <h5>Responsive Layout</h5>
+          <p>Our solutions work across devices to give a smooth user experience.</p>
+        </div>
+      </div>
+      <div class="why-col">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-globe2"></i></div>
+          <h5>SEO Friendly Website</h5>
+          <p>Search engine optimized to help your business stand out online.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+</div>
+
+
+
+ <section class="py-5">
+    <div class="container">
+      <div class="section-title">
+        <h6>Industries We Serve</h6>
+        <h2>What We Offer</h2>
+      </div>
+      <div class="row text-center">
+        <!-- CARD 1 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o1.jpg" alt="Information Tech">
+            </div>
+            <h5>Information Technology</h5>
+            <p>Making IT Taste Better.</p>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o2.jpeg" alt="Education">
+            </div>
+            <h5>Education</h5>
+            <p>Key to Unlock the world.</p>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o3.jpg" alt="Transportation">
+            </div>
+            <h5>Transportation</h5>
+            <p>Make your transportation hassle-free.</p>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o4.avif" alt="E-Commerce">
+            </div>
+            <h5>E-Commerce</h5>
+            <p>Sell your product without any difficulty.</p>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o5.png" alt="Hospitality">
+            </div>
+            <h5>Hospitality</h5>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o6.avif" alt="Infrastructure">
+            </div>
+            <h5>Infrastructure</h5>
+          </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o7.avif" alt="Financial Services">
+            </div>
+            <h5>Financial Services</h5>
+          </div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="col-6 col-md-3">
+          <div class="offer-card">
+            <div class="circle-img">
+              <img src="o8.jpg" alt="Health Care">
+            </div>
+            <h5>Health Care</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-5">
+  <div class="container">
+    <h2 class="section-title">OUR PROJECTS</h2>
+    <div class="underline"></div>
+
+    <div class="swiper projectSwiper">
+      <div class="swiper-wrapper">
+        <!-- Card 1 -->
+        <div class="swiper-slide">
+          <img src="pr/Screenshot 2025-07-08 at 10.49.43 AM.png" alt="Revive">
+          <div class="project-content">
+            <div class="project-title">REVIVE</div>
+            <div class="project-subtitle">Skin And Hair Clinic</div>
+            <div class="project-description">We create a personalized website as per client requirements with full doctor treatment details.</div>
+            <a href="#" class="btn-preview">Live Preview</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="swiper-slide">
+          <img src="pr/Screenshot 2025-07-08 at 10.50.40 AM.png" alt="Indian Tradition">
+          <div class="project-content">
+            <div class="project-title">Indian Tradition</div>
+            <div class="project-subtitle">The Glory Of Heritage</div>
+            <div class="project-description">These handcrafted works have been passed down generations and reflect India's rich heritage.</div>
+            <a href="#" class="btn-preview">Live Preview</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="swiper-slide">
+          <img src="pr/Screenshot 2025-07-08 at 10.51.46 AM.png" alt="LMS">
+          <div class="project-content">
+            <div class="project-title">LMS</div>
+            <div class="project-subtitle">Student Learning System</div>
+            <div class="project-description">LMS helps create, manage, and deliver eLearning with assessments and training modules.</div>
+            <a href="#" class="btn-preview">Live Preview</a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="swiper-slide">
+          <img src="pr/Screenshot 2025-07-08 at 10.52.35 AM.png" alt="India's News">
+          <div class="project-content">
+            <div class="project-title">India's Current News</div>
+            <div class="project-subtitle">Latest India news</div>
+            <div class="project-description">Stay updated with India’s latest political, financial, and global news alerts and updates.</div>
+            <a href="#" class="btn-preview">Live Preview</a>
+          </div>
+        </div>
+
+        <!-- Add more cards as needed... -->
+         <!-- Card 5 -->
+  <div class="swiper-slide">
+    <img src="pr/Screenshot 2025-07-08 at 10.53.38 AM.png" alt="Startup Site">
+    <div class="project-content">
+      <div class="project-title">Startup Site</div>
+      <div class="project-subtitle">Modern Web Presence</div>
+      <div class="project-description">We build scalable startup landing pages with clean UI/UX and strong tech stack backend support.</div>
+      <a href="#" class="btn-preview">Live Preview</a>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="swiper-slide">
+    <img src="pr/Screenshot 2025-07-08 at 10.54.43 AM.png" alt="Portfolio Site">
+    <div class="project-content">
+      <div class="project-title">Personal Portfolio</div>
+      <div class="project-subtitle">Creative Developer</div>
+      <div class="project-description">Designed a full-stack portfolio with animation, dark mode, and smooth scroll for better engagement.</div>
+      <a href="#" class="btn-preview">Live Preview</a>
+    </div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="swiper-slide">
+    <img src="pr/Screenshot 2025-07-08 at 10.57.18 AM.png" alt="E-Commerce">
+    <div class="project-content">
+      <div class="project-title">E-Commerce Platform</div>
+      <div class="project-subtitle">Sell Online</div>
+      <div class="project-description">Created a powerful online store with secure payments, product filters, and admin dashboard.</div>
+      <a href="#" class="btn-preview">Live Preview</a>
+    </div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="swiper-slide">
+    <img src="pr/Screenshot 2025-07-08 at 10.52.35 AM.png" alt="Tech Blog">
+    <div class="project-content">
+      <div class="project-title">Tech Blog</div>
+      <div class="project-subtitle">Informative Hub</div>
+      <div class="project-description">Responsive blog with search, categories, comment system, and markdown-based content.</div>
+      <a href="#" class="btn-preview">Live Preview</a>
+    </div>
+  </div>
+</div>
+      </div>
+
+      <!-- Pagination + Navigation -->
+     
+    </div>
+  </div>
+</section>
+
+
+
+<div id="contact">
+<section class="contact-section container">
+  <!-- Heading Section -->
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="contact-heading">HAVE QUESTIONS?<br>GET IN TOUCH!</h2>
+      <p class="subtext">Willing to bring your ideas to life?? you're just a click away.</p>
+    </div>
+    <div class="col-md-6">
+      <!-- WORKING EMBED MAP -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.108080655103!2d73.78697121440305!3d19.99745368657654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb1c1b4dcbef%3A0x6b5e5a62dce6783a!2sSharanpur%20Rd%2C%20Nashik%2C%20Maharashtra%20422002!5e0!3m2!1sen!2sin!4v1656758899000!5m2!1sen!2sin"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Info Cards Section -->
+  <div class="row mt-4">
+    <!-- Location -->
+    <div class="col-12 info-box d-flex align-items-start">
+      <div class="info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+      <div class="info-content">
+        <h5>Location:</h5>
+        <p>Manasvi Tech Solutions, Flat no:18, B-Wing, Sai Meghdoot Apartment, Pandit Colony lane no:5, Behind Kabra Emporium, Sharanpur Road, Nashik-422002</p>
+      </div>
+    </div>
+
+    <!-- Email and Call -->
+    <div class="col-md-6">
+      <div class="info-box d-flex align-items-center">
+        <div class="info-icon"><i class="bi bi-envelope-fill"></i></div>
+        <div class="info-content">
+          <h5>Email:</h5>
+          <p>admin@manasvi.tech</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="info-box d-flex align-items-center">
+        <div class="info-icon"><i class="bi bi-telephone-fill"></i></div>
+        <div class="info-content">
+          <h5>Call:</h5>
+          <p>+91 9028889915</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="container mt-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <div class="contact-form">
+    <form id="contactForm">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" name="message" placeholder="Message" rows="4" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-success">Send Message</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+<!-- SwiperJS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Bootstrap JS & AOS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+
+<script src="manasvi.js"></script>
+</body>
+</html>
